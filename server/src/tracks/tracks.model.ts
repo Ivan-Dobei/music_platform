@@ -16,9 +16,9 @@ export class Track extends Model<Track> {
   @Column({ type: DataType.STRING, allowNull: false })
   artist: string;
 
-  @Column({ type: DataType.STRING, allowNull: false })
+  @Column({ type: DataType.STRING })
   picture: string;
 
-  @Column({ type: DataType.STRING, allowNull: false })
+  @Column({ type: DataType.STRING })
   audio: string;
 }
